@@ -1,0 +1,47 @@
+.web {background-color: wheat;
+    margin: 3%;}
+
+.header1 {
+  grid-area: header1;
+  background-color: tomato;
+}
+.header2 {
+  grid-area: header2;
+  background-color: tomato;
+}
+.amarillo {
+  grid-area: amarillo;
+  background-color: sandybrown;
+}
+.morado1 {
+  grid-area: morado1;
+  background-color: slateblue;
+}
+.morado2 {
+  grid-area: morado2;
+  background-color: slateblue;
+}
+.azul1 {
+  grid-area: azul1;
+  background-color: teal;
+}
+.azul2 {
+  grid-area: azul2;
+  background-color: teal;
+}
+.azul3 {
+  grid-area: azul3;
+  background-color: teal;
+}
+section {
+  padding: 80px}
+
+main {
+  display: grid;
+  grid-template-areas:
+    'header1 header1 header1 header1 header2 header2'
+    'amarillo amarillo amarillo morado1 morado1 morado1'
+    'amarillo amarillo amarillo morado2 morado2 morado2'
+    'azul1 azul2 azul2 azul2 azul2 azul3';
+    grid-gap: 2% 1%;
+}

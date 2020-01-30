@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 14px;
+  font-family: "Open Sans";
+}
+
+button {
+  background-color: lightseagreen;
+  margin: 0, 1%;
+}
+
+.encabezado {
+  margin: 2%;
+  padding: 2%;
+  background-color: lightgray;
+}
+
+.articulo {
+  display: inline-block;
+  width: 33.33333333333333%;
+  padding: 4%;
+}

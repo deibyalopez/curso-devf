@@ -1,0 +1,68 @@
+.barra {
+  background-color: #55a8f5;
+  height: 50px;
+}
+.encabezado {
+  background-color: wheat;
+  height: 300px;
+  display: grid;
+  grid-template-areas:
+    "isotipo"
+    "nombre";
+  justify-content: center;
+  align-content: space-evenly;
+}
+
+.isotipo {
+  display: grid;
+  grid-area: isotipo;
+  background-color: #dddddd;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  text-align: center;
+  align-items: center;
+}
+.nombre {
+  display: grid;
+  grid-area: nombre;
+  background-color: #dddddd;
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  align-items: center;
+}
+.slidershow {
+  background-color: #71be4a;
+  height: 300px;
+}
+
+.contacto {
+  background-color: wheat;
+  height: 600px;
+  display: grid;
+  grid-template-areas:
+    "cont-titulo"
+    "formulario mapa";
+  justify-content: center;
+}
+
+.cont-titulo {
+  grid-area: cont-titulo;
+  background-color: #dddddd;
+  width: 300px;
+  height: 50px;
+}
+
+.formulario {
+  grid-area: formulario;
+  background-color: #dddddd;
+  width: 400px;
+  height: 400px;
+
+.mapa {
+  grid-area: mapa;
+  background-color: #dddddd;
+  width: 400px;
+  height: 400px;
+}
