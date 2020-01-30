@@ -44,7 +44,8 @@
   grid-template-areas:
     "cont-titulo"
     "formulario mapa";
-  justify-content: center;
+  justify-content: flex-start;
+
 }
 
 .cont-titulo {
@@ -60,9 +61,8 @@
   width: 400px;
   height: 400px;
 
-.mapa {
-  grid-area: mapa;
+.mapa-cont { grid-area: mapa;
   background-color: #dddddd;
   width: 400px;
-  height: 400px;
-}
+  height: 400px;}
+  
