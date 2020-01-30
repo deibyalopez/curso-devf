@@ -39,20 +39,22 @@
 
 .contacto {
   background-color: wheat;
-  height: 600px;
+  height: 500px;
   display: grid;
   grid-template-areas:
-    "cont-titulo"
+    "conttitulo conttitulo"
     "formulario mapa";
-  justify-content: flex-start;
-
+  justify-content: center;
+  align-content: space-evenly;
+  grid-gap: 2%;
 }
 
-.cont-titulo {
-  grid-area: cont-titulo;
+.conttitulo {
+  grid-area: conttitulo;
   background-color: #dddddd;
-  width: 300px;
+  width: 500px;
   height: 50px;
+  margin: auto;
 }
 
 .formulario {
@@ -60,9 +62,77 @@
   background-color: #dddddd;
   width: 400px;
   height: 400px;
+  margin: auto;
+}
 
-.mapa-cont { grid-area: mapa;
+.mapa {
+  grid-area: mapa;
   background-color: #dddddd;
   width: 400px;
-  height: 400px;}
-  
+  height: 400px;
+  margin: auto;
+}
+
+.articulos {
+  background-color: #b46cdc;
+  height: 400px;
+  display: grid;
+  grid-template-areas: "art1 art2 art3";
+  justify-content: center;
+  grid-gap: 2%;
+}
+
+.art1 {
+  background-color: #ffffff;
+  height: 300px;
+  width: 200px;
+  grid-area: art1;
+  margin: auto; display: grid;
+}
+
+.art2 {
+  background-color: #ffffff;
+  height: 300px;
+  width: 200px;
+  grid-area: art2;
+  margin: auto; display: grid;
+}
+
+.art3 {
+  background-color: #ffffff;
+  height: 300px;
+  width: 200px;
+  grid-area: art3;
+  margin: auto;
+  display: grid;
+}
+
+.art-titulo {
+  background-color: #dddddd;
+  width: 150px;
+  height: 30px;
+margin: auto;
+}
+
+.art-texto {background-color: #dddddd;
+width: 150px;
+height: 150px;
+margin: auto;
+}
+
+.editorial {background-color: wheat;
+height: 500px;
+display: grid;
+grid-template-areas: "ed-titulo" "ed-texto";}
+
+.ed-titulo { grid-area: ed-titulo;
+  background-color: #dddddd;
+  width: 300px;
+  height: 50px;
+  margin: auto;}
+
+.ed-texto {grid-area: ed-texto;
+  background-color: #dddddd;
+  width: 400px;
+  height: 400px;
+  margin: auto}
