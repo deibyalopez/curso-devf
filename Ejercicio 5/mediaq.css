@@ -1,0 +1,88 @@
+@media (max-width: 872px) {
+  .contacto {
+    grid-template-areas:
+      "conttitulo"
+      "formulario"
+      "mapa";
+    height: 850px;
+  }
+  .conttitulo {
+    width: 300px;
+    height: 30px;
+  }
+  .formulario {
+    width: 350px;
+    height: 350px;
+  }
+  .mapa {
+    width: 350px;
+    height: 350px;
+  }
+  .articulos {
+    height: auto;
+    grid-template-areas:
+      "art1"
+      "art2"
+      "art3";
+    align-content: space-around;
+    padding: 30px;
+  }
+  .art1 {
+    width: 300px;
+    height: 250px;
+  }
+  .art2 {
+    width: 300px;
+    height: 250px;
+  }
+  .art3 {
+    width: 300px;
+    height: 250px;
+  }
+  .art-texto {
+    width: 250px;
+    height: 150px;
+  }
+  .editorial {
+    height: auto;
+    padding: 20px;
+    grid-gap: 20px;
+  }
+
+  .ed-texto {
+    width: 400px;
+    height: 400px;
+  }
+  .varios {
+    flex-direction: column;
+    height: auto;
+  }
+  .var1 {
+    width: 100%;
+  }
+  .var2 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 450px) {
+  .conttitulo { 
+    height: auto;
+    align-content: space-around;
+    width: 200px;
+    height: 30px;
+  }
+  .formulario {
+    width: 250px;
+    height: 250px;
+  }
+  .mapa {
+    width: 250px;
+    height: 250px;
+  }
+
+  .ed-titulo {height: 30px; width: 250px;}
+  .ed-texto {
+    width: 300px;
+    height: 300px;}
+}
