@@ -1,1 +1,26 @@
-.header {height: 200px;background-color: #461A3E;}
+header {
+  height: 200px;
+  background-color: #461a3e;
+}
+main {
+  display: flex;
+}
+nav {
+  background-color: #fe9055;
+  width: 20%;
+  height: 600px;
+}
+section {
+  background-color: #ae73a9;
+  width: 80%;
+  height: 600px;
+}
+aside {
+  background-color: #fe5862;
+  width: 20%;
+  height: 600px;
+}
+footer {
+  background-color: #254441;
+  height: 200px;
+}
