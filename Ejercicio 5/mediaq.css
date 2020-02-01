@@ -66,7 +66,7 @@
 }
 
 @media (max-width: 450px) {
-  .conttitulo { 
+  .conttitulo {
     height: auto;
     align-content: space-around;
     width: 200px;
@@ -81,8 +81,24 @@
     height: 250px;
   }
 
-  .ed-titulo {height: 30px; width: 250px;}
+  .ed-titulo {
+    height: 30px;
+    width: 250px;
+  }
   .ed-texto {
     width: 300px;
-    height: 300px;}
+    height: 300px;
+  }
+
+  .var-titulo {
+    width: 200px;
+    height: 20px;
+    margin: auto;
+  }
+
+  .var-texto {
+    width: 300px;
+    height: 400px;
+    margin: auto;
+  }
 }
